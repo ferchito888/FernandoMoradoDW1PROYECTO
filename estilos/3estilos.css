@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+.cabeza{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid white;
+    
+
+}
+
+p{
+    color: white;
+}
+
+
+
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: bisque;
+    font-size: 100px;
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+
+.pequeños{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pequeño{
+    border: 1px solid white;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    transition: transform 1s ease;
+}
+
+
+.pequeño:hover{
+    transform: scale(2);
+    p{color: brown;}
+}
+
+.img1,
+.img2,
+.img3{
+    width: 30px;
+}
+
+
+.pequeño2{
+    border: 1px solid white;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    transition: transform 1s ease;
+
+}
+
+.pequeño2:hover{
+    transform: scale(2);
+    p{color: brown;}
+}
+
+.pequeño3{
+    border: 1px solid white;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    transition: transform 1s ease;
+
+}
+
+.pequeño3:hover{
+    transform: scale(2);
+    p{color: brown;}
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
+
+.padregrilla{
+    display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem;
+}
+
+.barra {
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    color: #eb0404;
+}
+
+.precio {
+  margin-bottom: 1.5rem;
+}
+
+.precio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.precio li {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+
+.producto{
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  height: 147px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+
+  }
+
+
+
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+#img{
+    width: 120;
+    height: 110px;
+}
+
+.pa{
+    color: #eb0404;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr{color: brown;}
+
+#carouselExampleFade{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+@media (min-width:568px) {
+    .padregrilla{
+        grid-template-columns: minmax(150px, 1fr) 3fr;
+    }
+    
+}
